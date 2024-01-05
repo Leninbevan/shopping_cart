@@ -1,0 +1,182 @@
+.mainContainer{
+    display: flex;
+    height: 700px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    column-gap: 10px;
+}
+.inputContainer{
+    
+    width: 20%;
+    height: 100%;
+    border: 1px solid rgb(146, 146, 233);
+}
+.itemContainer{
+    
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid rgb(146, 146, 233); */
+}
+.paymentContainer{
+    background-color: #565ABB;
+    width: 25%;
+    height: 100%;
+    border: 1px solid rgb(146, 146, 233);
+    border-radius: 30px;
+}
+.image{
+    width: 80px;
+}
+.logo,.button{
+    text-align: center;
+}
+.paymentContent{
+    margin: 20px;
+}
+.cardHeader{
+    justify-content: space-between;
+}
+.cardLogo{
+    width: 60px;
+}
+.cardTitle{
+    color: white;
+    font-size: 30px;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#7073C1;
+    width:-webkit-fill-available;
+    border-radius: 1px;
+}
+.cardsDiv{
+    column-gap: 10px;
+}
+.cardType{
+    color: white;
+}
+.moreCards{
+    align-items: center;
+    color: white;
+    padding: 7px;
+}
+.nameLable,.numberLable,.expiryDate,.cvv{
+    color: white;
+}
+.name,.number,.date{
+    background-color: #7073C1;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+.cardNumber{
+    justify-content: space-between;
+}
+.cvvNumber{
+    background-color: #7073C1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 162px;
+    color: white;
+}
+.expiryDatteAndCvv{
+    align-items: end;
+    gap: 20px;
+}
+.expiryDate{
+    width: 158px;
+}
+.billDiv{
+    border-top: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.amount{
+    justify-content: space-between;
+    color: white;
+}
+.checkButton{
+    width: -webkit-fill-available;
+    background-color: #4DE1C1 !important;
+    border: none;
+}
+.line{
+    border-bottom: 1px solid grey;
+}
+.itemCard{
+    border: 1px solid gray;
+    height: 130px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: seashell;
+    
+}
+.allCards{
+    max-height: 540px;
+    overflow: auto;
+}
+.foodImage{
+    width: 100px;
+    border-radius: 15px;
+    height: 92px;
+}
+.foodName{
+    top: 30px;
+    left: 145px;
+}
+.extraToppings{
+    font-size: small;
+}
+.foodImageDiv{
+    width: 15%;
+    padding: 20px;
+    display: flex;
+    
+}
+.foodDetails{
+    width: 40%;
+    margin: auto;
+}
+.addItem{
+    width: 20%;
+    margin: auto;
+    cursor: pointer;
+}
+.deleteItem{
+    width: 15%;
+    margin: auto;
+    column-gap: 10px;
+}
+.upArrow{
+    width: 16px;
+    margin-left: 8px;
+}
+.downArrow{
+    width: 24px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.foodCount{
+    width: 5%;
+    margin: auto;
+}
+.deleteLogo{
+    width: 30px;
+    cursor: pointer;
+}
+
+.arrowNotAlowed{
+    width: 24px;
+    margin-left: 4px;
+    cursor: pointer;
+    display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
